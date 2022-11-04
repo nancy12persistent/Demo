@@ -6,6 +6,7 @@ public class ConcreteObserver extends Observer{
 	public void update(Subject subject) {
 		((ConcreteSubject) subject).processData();
 		System.out.println("Thissss isss secondd");
+		System.out.println("Thissss isss third");
 		
 	}
 
