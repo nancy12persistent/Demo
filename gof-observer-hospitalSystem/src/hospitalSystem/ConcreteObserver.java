@@ -7,7 +7,7 @@ public class ConcreteObserver extends Observer{
 		((ConcreteSubject) subject).processData();
 		System.out.println("Thissss isss secondd");
 		System.out.println("Thissss isss third");
-		
+		System.out.println("Thissss isss fourth");
 	}
 
 }
